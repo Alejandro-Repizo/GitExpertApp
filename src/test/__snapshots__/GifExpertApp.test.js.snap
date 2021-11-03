@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifExpertApp/> El componente debe cargar correctamente 1`] = `
+<Fragment>
+  <header
+    className="header"
+  >
+    <div
+      className="header__subcontainer wrapper"
+    >
+      <div
+        className="icon"
+      >
+        <i
+          className="fas fa-keyboard"
+        />
+      </div>
+      <h2>
+        GifApp
+      </h2>
+      <AddCategory
+        setCategories={[Function]}
+      />
+    </div>
+  </header>
+  <div
+    className="wrapper search"
+  >
+    <figure
+      className="image"
+    >
+      <img
+        alt="search--gift"
+        src="search.svg"
+      />
+    </figure>
+    <h1
+      className="search__title"
+    >
+      Type your favorite gif
+    </h1>
+  </div>
+</Fragment>
+`;

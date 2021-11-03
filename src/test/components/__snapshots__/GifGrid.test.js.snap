@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <GifGrid/> Se debe mostrar correctamente 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="wrapper wrapper--color"
+  >
+    <h3
+      className="container__title animate__animated animate__fadeIn"
+    >
+      <i
+        className="fas fa-star icon icon--categories"
+      />
+      Category
+    </h3>
+    <h1
+      className="loader animate__animated animate__flash"
+    >
+      Loading...
+    </h1>
+    <div
+      className="container__card"
+    />
+  </div>
+</div>
+`;

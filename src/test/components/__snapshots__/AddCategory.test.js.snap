@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AddCategory/> <AddCategory/> se debe mostrar correctamente 1`] = `
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <input
+    className="form__input"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <button
+    className="form__button"
+    type="submit"
+  >
+    <i
+      className="fas fa-search"
+    />
+  </button>
+</form>
+`;
