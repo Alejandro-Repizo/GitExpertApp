@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
-import searchImage from './images/search.svg';
 
 export const GifExpertApp = () => {
 	const [categories, setCategories] = useState([]);
@@ -21,7 +20,7 @@ export const GifExpertApp = () => {
 			{categories.length <= 0 && (
 				<div className='wrapper search'>
 					<figure className='image'>
-						<img src={searchImage} alt='search--gift' />
+						<img src="/assets/search.svg" alt='search--gift' />
 					</figure>
 					<h1 className='search__title'>Type your favorite gif</h1>
 				</div>
